@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Logs (large, local only)
+logs/
+
+# Raw API cache (large binary / JSON blobs, regenerated on each run)
+data/
+
+# Excel exports (binary, regenerated on each run)
+raw-data/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / env
+.env
+*.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Keep reports (this is what the cloud app reads)
+!reports/
